@@ -1,0 +1,155 @@
+*{
+	background: #E3E3E3;
+}
+.index-side-bar{
+
+	background: #0DDF92;
+	margin-left:66%;
+	margin-top: -2%;
+	width: 467px;
+	height: 675px;
+}
+
+.index-exp-title{
+	
+	font-family: Comic-sans;
+	margin-top: -35%;
+	margin-left:2% ;
+	width: 10%;
+	
+}
+
+.index-line-title{
+	background-color: black;
+	margin-top: -1%;
+	margin-left: 2%;
+	width: 100px;
+	height: 1px;
+}
+
+.index-exp-text{
+	font-family: Verdana;
+	font-size: 70%;
+	margin-top: ;
+	margin-left:2% ;
+	width: 15%;
+}
+
+.index-exp-title2{
+	font-family: Comic-sans;
+	margin-left: 2%;
+	width: 10%;	
+}
+
+.index-line-title2{
+	background-color: black;
+	margin-top: -1%;
+	margin-left: 2%;
+	width: 100px;
+	height: 1px;
+}
+
+.index-exp-text2{
+	font-family: Verdana;
+	font-size: 70%;
+	margin-top: ;
+	margin-left:2% ;
+	width: 15%;
+}
+
+.index-img-girl{
+	width: 30%;
+	height: 30%;
+	margin-top: -70%;
+	margin-left: 25%;
+	position: relative;
+
+}
+
+.index-img-toplogo{
+	width: 20%;
+	height: 20%;
+	margin-top: -100%;
+	margin-bottom: 20%;
+	margin-right: 40%;
+	position: relative;
+}
+
+.index-video-presentacion{
+	padding: 0%;
+	width: 25%;
+	height:25%;
+	margin-left: 20%;
+	margin-right: 35%;
+	position: relative;
+}
+
+.index-visualize{
+	display: inline-block;
+	padding: 10px 10px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	transform: translate(-90%, -50%);
+	font-family: 'Rubik one', sans-serif;
+	border-radius: 20%;
+	transition: all .5s;
+	text-decoration: none;
+	background-color: #03AD6F;
+}
+
+.index-visualize:hover{
+	color: white;
+	background-color: #004F32;
+	padding: 15px 15px;
+
+}
+
+.index-login{
+	display: inline-block;
+	padding: 10px 20px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	transform: translate(150%, -50%);
+	font-family: 'Rubik one', sans-serif;
+	border-radius: 20%;
+	transition: all .5s;
+	text-decoration: none;
+	background-color: #03AD6F;
+}
+
+.index-login:hover{
+	color: white;
+	background-color: #004F32;
+	padding: 15px 25px;
+
+}
+
+.index-banner-logo{
+	background-repeat: no-repeat;
+	background-color: rgb(13, 223, 146 );
+	position: fixed;
+	width: 30%;
+	height: 55%;
+	margin-top: -30%;
+	margin-left:-12%;
+	margin-bottom:15%;
+}
+
+.login-side-bar{
+
+	background: #0DDF92;
+	margin-left:50%;
+	margin-top: -2%;
+	position: fixed;
+	width: 700px;
+	height: 676px;
+}
+
+
+
+
+
+
+
