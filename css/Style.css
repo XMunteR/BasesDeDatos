@@ -30,7 +30,6 @@
 .index-exp-text{
 	font-family: Verdana;
 	font-size: 70%;
-	margin-top: ;
 	margin-left:2% ;
 	width: 15%;
 }
@@ -52,7 +51,6 @@
 .index-exp-text2{
 	font-family: Verdana;
 	font-size: 70%;
-	margin-top: ;
 	margin-left:2% ;
 	width: 15%;
 }
@@ -237,9 +235,160 @@
 	border-radius: 15px;
 	color: white;
 	background-color: #065214;
-
-
 }
+
+.Registro-top-Banner{
+	position: fixed;
+	background-color:#0DDF92;
+	width: 1400px;
+	height: 120px;
+	margin-left: -10px;
+	margin-top: -15px;
+}
+
+.Registro-top-text{
+	position: fixed;
+	background-color:#0DDF92;
+	margin-left:2%;
+	margin-top:2%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 350%;
+	
+}
+
+.Registro-top-Exp{
+	position:fixed;
+	background-color: #34a57b;
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 600px;
+	height: 80px;
+}
+
+.Registro-box-Exp{
+	position: fixed;
+	background-color: #ada9a9;
+	margin-top: 5.92%;
+	width: 600px;
+	height: 400px;
+}
+
+.Registro-top-Reg{
+	position:fixed;
+	background-color: #ada9a9;
+	margin-top: 10%;
+	margin-left: 50%;
+	width: 600px;
+	height: 80px;
+}
+
+.Registro-box-Reg{
+	position: fixed;
+	background-color: #34a57b;
+	margin-top: 5.92%;
+	width: 600px;
+	height: 400px;
+	
+}
+
+.Registro-topBox-Exp{
+	position: fixed;
+	background-color:#34a57b;
+	margin-left: 14%;
+	margin-top: 1%;
+	font-size: 300%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Registro-topBox-Reg{
+	position: fixed;
+	background-color:#ada9a9;
+	margin-left: 16%;
+	margin-top: 1%;
+	font-size: 300%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Registro-box-content-lugar{
+	position: fixed;
+	background-color: #ada9a9;
+	font-size: 150%;
+	margin-top: 4%;
+	margin-left: 5%;
+}
+
+.Registro-box-Exp-lugar{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 4%;
+	margin-left:10%;
+}
+
+.Registro-box-content-Fecha{
+	position: fixed;
+	background-color: #ada9a9;
+	font-size: 150%;
+	margin-top: 8%;
+	margin-left: 5%;
+}
+
+.Registro-box-Exp-Date{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 8%;
+	margin-left:10%;
+}
+
+.Registro-box-content-Hora{
+	position: fixed;
+	background-color: #ada9a9;
+	font-size: 150%;
+	margin-top: 12%;
+	margin-left: 5%;
+}
+
+.Registro-box-Exp-Time{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 12%;
+	margin-left:10%;
+}
+
+.Registro-box-Exp-btn{
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 16%;
+	margin-left: 14%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color:#34a57b;
+}
+
+.Registro-box-Exp-btn:hover{
+	position: fixed;
+	cursor: pointer;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-radius: 25px;
+	color: white;
+	background-color: #065214;
+}
+
+
+
+
+
+
 
 
 
