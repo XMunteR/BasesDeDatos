@@ -30,7 +30,6 @@
 .index-exp-text{
 	font-family: Verdana;
 	font-size: 70%;
-	margin-top: ;
 	margin-left:2% ;
 	width: 15%;
 }
@@ -52,7 +51,6 @@
 .index-exp-text2{
 	font-family: Verdana;
 	font-size: 70%;
-	margin-top: ;
 	margin-left:2% ;
 	width: 15%;
 }
@@ -237,12 +235,384 @@
 	border-radius: 15px;
 	color: white;
 	background-color: #065214;
+}
+
+.Registro-top-Banner{
+	position: fixed;
+	background-color:#0DDF92;
+	width: 1400px;
+	height: 120px;
+	margin-left: -10px;
+	margin-top: -15px;
+}
+
+.Registro-top-text{
+	position: fixed;
+	background-color:#0DDF92;
+	margin-left:2%;
+	margin-top:2%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 350%;
+	
+}
+
+.Registro-top-Exp{
+	position:fixed;
+	background-color: #34a57b;
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 600px;
+	height: 80px;
+}
+
+.Registro-box-Exp{
+	position: fixed;
+	background-color: #ada9a9;
+	margin-top: 5.92%;
+	width: 600px;
+	height: 400px;
+}
+
+.Registro-top-Reg{
+	position:fixed;
+	background-color: #ada9a9;
+	margin-top: 10%;
+	margin-left: 50%;
+	width: 600px;
+	height: 80px;
+}
+
+.Registro-box-Reg{
+	position: fixed;
+	background-color: #34a57b;
+	margin-top: 5.92%;
+	width: 600px;
+	height: 400px;
+	
+}
+
+.Registro-topBox-Exp{
+	position: fixed;
+	background-color:#34a57b;
+	margin-left: 14%;
+	margin-top: 1%;
+	font-size: 300%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Registro-topBox-Reg{
+	position: fixed;
+	background-color:#ada9a9;
+	margin-left: 16%;
+	margin-top: 1%;
+	font-size: 300%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Registro-box-content-lugar{
+	position: fixed;
+	background-color: #ada9a9;
+	font-size: 150%;
+	margin-top: 4%;
+	margin-left: 5%;
+}
+
+.Registro-box-Exp-lugar{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 4%;
+	margin-left:10%;
+}
+
+.Registro-box-content-Fecha{
+	position: fixed;
+	background-color: #ada9a9;
+	font-size: 150%;
+	margin-top: 8%;
+	margin-left: 5%;
+}
+
+.Registro-box-Exp-Date{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 8%;
+	margin-left:10%;
+}
+
+.Registro-box-content-Hora{
+	position: fixed;
+	background-color: #ada9a9;
+	font-size: 150%;
+	margin-top: 12%;
+	margin-left: 5%;
+}
+
+.Registro-box-Exp-Time{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 12%;
+	margin-left:10%;
+}
+
+.Registro-box-Exp-btn{
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 16%;
+	margin-left: 14%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color:#34a57b;
+}
+
+.Registro-box-Exp-btn:hover{
+	position: fixed;
+	cursor: pointer;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-radius: 25px;
+	color: white;
+	background-color: #065214;
+}
+
+.Registro-box-Reg-sujeto{
+	position: fixed;
+	background-color: #34a57b;
+	font-size: 150%;
+	margin-top: 4%;
+	margin-left: 8%;
+	
+}
+
+.Registro-box-reg-sujeto-input{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 4%;
+	margin-left:15%;
+}
+
+.Registro-box-Reg-Espacio{
+	position: fixed;
+	background-color: #34a57b;
+	font-size: 150%;
+	margin-top: 7%;
+	margin-left: 8%;
+}
+
+.Registro-box-reg-Espacio-input{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 7%;
+	margin-left:15%;
+}
+
+.Registro-box-Reg-Genero{
+	position: fixed;
+	background-color: #34a57b;
+	font-size: 150%;
+	margin-top: 10%;
+	margin-left: 4%;	
+}
+
+.Registro-box-Reg-Genero-input{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 10%;
+	margin-left:15%;
+}
+
+.Registro-box-Reg-Validaciones{
+	position: fixed;
+	background-color: #34a57b;
+	font-size: 150%;
+	margin-top: 13%;
+	margin-left: 6.5%;
+}
+.Registro-box-Reg-Validaciones-input{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 13%;
+	margin-left:15%;
+}
+
+.Registro-box-Reg-Tiempo{
+	position: fixed;
+	background-color: #34a57b;
+	font-size: 150%;
+	margin-top: 16%;
+	margin-left: 6.5%;
+}
+
+.Registro-box-Reg-Tiempo-input{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 16%;
+	margin-left:15%;
+}
+
+.Registro-box-Reg-Observaciones{
+	position: fixed;
+	background-color: #34a57b;
+	font-size: 150%;
+	margin-top: 19%;
+	margin-left: 3%;
+}
+
+.Registro-box-Reg-Observaciones-input{
+	position: fixed;
+	border-color: #0D70DF;
+	width: 280px;
+	height: 25px;
+	margin-top: 19%;
+	margin-left:15%;	
+}
+
+.Registro-box-Reg-btn{
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 26%;
+	margin-left: 17%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color:#b4b3b3;
+}
+
+.Registro-box-Reg-btn:hover{
+	position: fixed;
+	cursor: pointer;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-radius: 25px;
+	color: white;
+	background-color: #5a5a5a;
+}
+
+.Experimentos-top-bar{
+
+    background: #0DDF92;
+    margin-left: -1%;
+    margin-top: -2%;
+    position: fixed;
+    width: 1400px;
+    height: 120px;
+}
+
+.Experimentos-top-text{
+    position: fixed;
+    margin-left: 2%;
+    margin-top: 2%;
+    background: #0DDF92;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 350%    ;
 
 
 }
 
+table.view{
+    background-color: #078053;
+    color: #000000;
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 3.5%;
+    width: 90%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
 
+}
 
+.elementos-tabla{
+    background-color: #0aaa6f;
+    text-align: center;
+    font-size: 110%    ;
+}
 
+.Registro-box-Foto-label{
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 21%;
+	margin-left: -1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color: transparent;
+	
+}
+.Registro-box-Foto{
+	
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 23%;
+	margin-left: -1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color:transparent;
+}
+
+.Registro-box-Video-label{
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 21%;
+	margin-left: 20%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color: transparent;
+	
+}
+.Registro-box-Video{
+	
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 23%;
+	margin-left: 20%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color:transparent;
+}
+
+.request-back{
+	text-decoration: none;
+	background-color: #000000;
+	color: white;
+	padding: 5%;
+	border-radius: 10px;
+}
 
 
