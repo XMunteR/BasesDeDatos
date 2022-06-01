@@ -11,22 +11,20 @@
 	<p class="Experimentos-top-text">Datos experimento social (conformidad)</p>
 	</div>
 
-<table>
-	<TR>
-		<td><label>Nombre:</label></td>
-		<td><label><input type="text" name="Nombre" /></label></td>
-	</TR>
-</table>
-<table class="Table-view">
+
+<table class="view" border="1">
 
 	<tr>
-		<td>ID</td>
-		<td>Fecha</td>
-		<td>Hora</td>
-		<td>Validacion</td>
-		<td>Tiempo</td>
+		<td class="elementos-tabla">ID</td>
+		<td class="elementos-tabla">Fecha</td>
+		<td class="elementos-tabla">Hora</td>
+		<td class="elementos-tabla">Validacion</td>
+		<td class="elementos-tabla">Tiempo</td>
 
-		<td>Observaciones</td>
+		<td class="elementos-tabla">Observaciones</td>
+		<td class="elementos-tabla"> Evidencia </td>
+
+
 	</tr>
 </body>
 </html>

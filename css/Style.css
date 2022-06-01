@@ -1,5 +1,7 @@
 *{
 	background: #E3E3E3;
+	
+	
 }
 .index-side-bar{
 
@@ -30,7 +32,6 @@
 .index-exp-text{
 	font-family: Verdana;
 	font-size: 70%;
-	margin-top: ;
 	margin-left:2% ;
 	width: 15%;
 }
@@ -52,7 +53,6 @@
 .index-exp-text2{
 	font-family: Verdana;
 	font-size: 70%;
-	margin-top: ;
 	margin-left:2% ;
 	width: 15%;
 }
@@ -241,8 +241,43 @@
 
 }
 
+.Experimentos-top-bar{
 
+	background: #0DDF92;
+	margin-left: -1%;
+	margin-top: -1%;
+	position: fixed;
+	width: 1400px;
+	height: 120px;
+}
 
+.Experimentos-top-text{
+	position: fixed;
+	margin-left: 2%;
+	margin-top: 2%;
+	background: #0DDF92;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 350%	;
+	
+	
+}
 
+table.view{
+	background-color: #078053;
+	color: #000000;
+	position: fixed;
+	margin-top: 10%;
+	margin-left: 3.5%;
+	width: 90%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   	/* border: 1px solid #000;
+    border-collapse: collapse; */
+	
+}
 
+.elementos-tabla{
+	background-color: #0aaa6f;
+	text-align: center;
+	font-size: 110%	;
+}
 
