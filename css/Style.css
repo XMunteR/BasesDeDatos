@@ -490,7 +490,7 @@
 	position: fixed;
 	transition: all .5s;
 	cursor: pointer;
-	margin-top: 23%;
+	margin-top: 26%;
 	margin-left: 17%;
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
@@ -549,5 +549,70 @@ table.view{
     font-size: 110%    ;
 }
 
+.Registro-box-Foto-label{
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 21%;
+	margin-left: -1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color: transparent;
+	
+}
+.Registro-box-Foto{
+	
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 23%;
+	margin-left: -1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color:transparent;
+}
+
+.Registro-box-Video-label{
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 21%;
+	margin-left: 20%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color: transparent;
+	
+}
+.Registro-box-Video{
+	
+	position: fixed;
+	transition: all .5s;
+	cursor: pointer;
+	margin-top: 23%;
+	margin-left: 20%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 20px;
+	background-color:transparent;
+}
+
+.request-back{
+	text-decoration: none;
+	background-color: #000000;
+	color: white;
+	padding: 5%;
+	border-radius: 10px;
+}
 
 

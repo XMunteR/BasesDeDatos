@@ -15,6 +15,8 @@
 	
 	<img class="login-head" src="img/login-head.png">
 
+	<form action="Datos/ValidLogin.php" method="POST">
+		
 	<label class="login-signin">Sign In</label>
 
 	<label class="login-Username">Nombre</label>
@@ -24,8 +26,10 @@
 	<input class="login-Password-txt" type="password" name="Password">
 
 
-	<a class="login-signUp" href="Registro.php">Sign Up</a>
+	<input class="login-signUp" type="submit" value="Sign Up">
+	<!-- <a class="login-signUp" href="Registro.php">Sign Up</a> -->
 
+	</form>
 
 
 	

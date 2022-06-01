@@ -1,3 +1,7 @@
+<?php 
+	include 'Datos/conexion.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,10 +11,11 @@
 	<title>Registro de datos</title>
 </head>
 <body>
+	
 	<div class="Registro-top-Banner">
 		<p class="Registro-top-text">Registro de Datos</p>
 	</div>
-	
+	<form action="Datos/SaveExp.php" method="POST">
 	<div class="Registro-top-Exp">
 		<p class="Registro-topBox-Exp">Experimento</p>
 		<div class="Registro-box-Exp">
@@ -19,7 +24,7 @@
 			<input class="Registro-box-Exp-lugar" type="text" name="Place">
 
 			<p class="Registro-box-content-Fecha">Fecha</p>
-			<input class="Registro-box-Exp-Date" type="Date" name="Date">
+			<input class="Registro-box-Exp-Date" type="text" name="Date">
 
 			<p class="Registro-box-content-Hora">Hora</p>
 			<input class="Registro-box-Exp-Time" type="text" name="Time">
@@ -27,7 +32,9 @@
 			<button class="Registro-box-Exp-btn" name="send-exp">Enviar</button>
 		</div>
 	</div>
+	</form>
 
+	<form action="Datos/SaveRegistro.php" method="POST">
 	<div class="Registro-top-Reg">
 	<p class="Registro-topBox-Reg">Registro</p>
 		<div class="Registro-box-Reg">
@@ -49,11 +56,17 @@
 
 		<p class="Registro-box-Reg-Observaciones">Observaciones</p>
 		<input class="Registro-box-Reg-Observaciones-input" type="text" name="Observaciones">
+		
+		<p class="Registro-box-Foto-label">foto</p>
+		<input class="Registro-box-Foto" type="file" name="foto">
+
+		<p class="Registro-box-Video-label">video</p>
+		<input class="Registro-box-Video" type="file" name="video">
 
 		<button class="Registro-box-Reg-btn" name="send-Reg">Enviar</button>
 
 		</div>
 	</div>
-	
+	</form>
 </body>
 </html>
