@@ -31,8 +31,29 @@
 	<div class="Registro-top-Reg">
 	<p class="Registro-topBox-Reg">Registro</p>
 		<div class="Registro-box-Reg">
-			<p class="Registro-box-Reg-Sujeto">Sujeto #</p>
+			
+		<p class="Registro-box-Reg-sujeto">Sujeto #</p>	
+		<input class="Registro-box-reg-sujeto-input" type="text" name="Sujeto">
+		
+		<p class="Registro-box-Reg-Espacio">Espacio</p>
+		<input class="Registro-box-reg-Espacio-input" type="text" name="Espacio">
+
+		<p class="Registro-box-Reg-Genero">Genero Sujeto</p>
+		<input class="Registro-box-Reg-Genero-input" type="text" name="Genero">
+
+		<p class="Registro-box-Reg-Validaciones">Validacion</p>
+		<input class="Registro-box-Reg-Validaciones-input" type="text" name="Validaciones">
+
+		<p class="Registro-box-Reg-Tiempo">Tiempo</p>
+		<input class="Registro-box-Reg-Tiempo-input" type="text" name="tiempo">
+
+		<p class="Registro-box-Reg-Observaciones">Observaciones</p>
+		<input class="Registro-box-Reg-Observaciones-input" type="text" name="Observaciones">
+
+		<button class="Registro-box-Reg-btn" name="send-Reg">Enviar</button>
+
 		</div>
 	</div>
+	
 </body>
 </html>
