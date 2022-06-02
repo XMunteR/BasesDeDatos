@@ -1,7 +1,7 @@
 <?php
     
-    $usuario = "usu";
-    $contraseña = "1234";
+    $usuario = "Admin";
+    $contraseña = "Admin";
 
     $Usuarme = $_POST['Usuarme'];
     $Password = $_POST['Password'];
