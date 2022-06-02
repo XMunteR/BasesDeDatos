@@ -6,8 +6,8 @@
     $Sujeto=$_POST['Sujeto'];
     $Espacio=$_POST['Espacio'];
     $Genero=$_POST['Genero'];
-    $Imagen = $_FILES['foto']['tmp_name'];
-    $Video = $_FILES['video']['tmp_name'];
+    $Imagen = addslashes(file_get_contents ($_FILES["foto"]["tmp_name"]));
+    $Video = addslashes(file_get_contents ($_FILES["video"]["tmp_name"]));
     $Validacion=$_POST['Validaciones'];
     $tiempo=$_POST['tiempo'];
     $Observaciones=$_POST['Observaciones'];

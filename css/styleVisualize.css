@@ -1,0 +1,43 @@
+
+*{
+    
+    background-color: #E3E3E3;
+}
+.Experimentos-top-bar{
+
+    background: #0DDF92;
+    margin-left: -1%;
+    margin-top: -2%;
+    position: absolute;
+    width: 1400px;
+    height: 120px;
+}
+
+.Experimentos-top-text{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+    background: #0DDF92;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 350%    ;
+
+
+}
+
+.view{
+    background-color: #078053;
+    color: #000000;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 3.5%;
+    width: 90%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
+
+}
+
+.elementos-tabla{
+    background-color: #0aaa6f;
+    text-align: center;
+    font-size: 110%    ;
+}
