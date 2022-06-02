@@ -19,7 +19,7 @@
     if(!$ejecutar){
         echo"Ocurrio un error";
     }else{
-        echo"Datos almacenados correctamente <a href='../Registro.php'>volver</a>";
+        echo"Datos almacenados correctamente <a href='../Registro.php'>volver</a>     <a href='../VisualizeExp.php'>ver datos</a>";
     }
     
 ?>
